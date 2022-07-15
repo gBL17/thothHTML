@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 .outForms{
     max-width: 1440px;
     background-color: #384b56;
@@ -48,14 +54,20 @@ input {
 }
 
 .buttonDiv {
-    height: 20px;
-    position: relative;
+    margin-bottom: 10px
 }
 
 .signIn {
+    position: relative;
     margin-left: 50%;
-    position: absolute;
-    top: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+    width: 150px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #33C5F3;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    border-radius: 10px;
+    border: none;
 }
